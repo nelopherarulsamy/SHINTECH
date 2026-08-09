@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SHINTECH | Smart Product Support</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <span class="brand-icon">
+        <svg viewBox="0 0 24 24" width="26" height="26" fill="none">
+          <path d="M12 2L4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5l-8-3z" fill="url(#shieldGrad)"/>
+          <path d="M9.5 12.2l1.7 1.7 3.3-3.6" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs>
+            <linearGradient id="shieldGrad" x1="4" y1="2" x2="20" y2="22" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#2F6BFF"/>
+              <stop offset="1" stop-color="#0A3FCC"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </span>
+      <div class="brand-text">
+        <span class="brand-name">SHIN<em>TECH</em></span>
+        <span class="brand-sub">Smart Product Support</span>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="#" class="active">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#support">Support</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="btn btn-outline-light">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zM4 20c0-3.5 3.6-6 8-6s8 2.5 8 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      Login / Register
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-bg-grid"></div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <span class="badge-verified">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        QR Verified
+      </span>
+      <h1>Welcome to<br><span class="hero-brand">SHIN<em>TECH</em></span></h1>
+      <p class="hero-tagline">Scan. Verify. Trust.</p>
+      <p class="hero-desc">You are viewing public product information. Login or register to access warranty, raise complaints and track your service.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zM4 20c0-3.5 3.6-6 8-6s8 2.5 8 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          Login
+        </button>
+        <button class="btn btn-outline-glow">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.87M16 3.13A4 4 0 0 1 16 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Register Product
+        </button>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-glow"></div>
+      <div class="hero-platform">
+        <img src="assets/mixer.svg" alt="Samsung Mixer Grinder" class="hero-product-img" />
+      </div>
+      <span class="sparkle">✦</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MAIN CONTENT ===== -->
+<main class="content-wrap">
+
+  <!-- Product Information -->
+  <section class="card product-info-card">
+    <div class="card-title">
+      <span class="icon-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M21 8l-9-5-9 5 9 5 9-5zM3 8v8l9 5 9-5V8M12 13v8" stroke="#2F6BFF" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+      <h2>Product Information</h2>
+    </div>
+
+    <div class="product-info-body">
+      <div class="product-thumb">
+        <img src="assets/mixer.svg" alt="Samsung Mixer Grinder" />
+      </div>
+
+      <div class="product-details">
+        <h3 class="product-name">Samsung Mixer Grinder</h3>
+        <div class="stars" aria-label="4.5 out of 5">
+          <span>★★★★</span><span class="half">★</span>
+          <span class="rating-num">(4.5/5)</span>
+        </div>
+
+        <div class="detail-grid">
+          <div class="detail-col">
+            <div class="detail-row"><span class="d-label">Model Number</span><span class="d-value">MX-750</span></div>
+            <div class="detail-row"><span class="d-label">Category</span><span class="d-value">Kitchen Appliance</span></div>
+            <div class="detail-row"><span class="d-label">Brand</span><span class="d-value">Samsung</span></div>
+            <div class="detail-row"><span class="d-label">Warranty Period</span><span class="d-value">2 Years</span></div>
+          </div>
+          <div class="detail-col">
+            <div class="detail-row"><span class="d-label">Manufacturing Date</span><span class="d-value">12 Jan 2026</span></div>
+            <div class="detail-row"><span class="d-label">Product Status</span><span class="d-value pill-status">Genuine Product</span></div>
+            <div class="detail-row"><span class="d-label">Product Code</span><span class="d-value">ST-MX-750-126</span></div>
+            <div class="detail-row"><span class="d-label">QR Code ID</span><span class="d-value">SHINTECH-2026-000875</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Description -->
+  <section class="card">
+    <div class="card-title">
+      <span class="icon-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 4.5A2.5 2.5 0 0 1 6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15z" stroke="#2F6BFF" stroke-width="1.7" stroke-linejoin="round"/></svg></span>
+      <h2>Product Description</h2>
+    </div>
+
+    <div class="description-body">
+      <p class="description-text">Experience powerful performance with Samsung Mixer Grinder. Designed for superior durability and efficiency, it makes your kitchen tasks easier and faster.</p>
+
+      <div class="feature-grid">
+        <div class="feature-item">
+          <span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M13 2L3 14h7l-1 8 11-14h-7l1-6z" stroke="#2F6BFF" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          <span>Powerful<br>750W Motor</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 3v6c0 5-3.4 8.7-8 10-4.6-1.3-8-5-8-10V5l8-3z" stroke="#2F6BFF" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+          <span>Overload<br>Protection</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="#2F6BFF" stroke-width="1.6"/><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8" stroke="#2F6BFF" stroke-width="1.6" stroke-linecap="round"/></svg></span>
+          <span>Stainless Steel<br>Blades</span>
+        </div>
+        <div class="feature-item">
+          <span class="feature-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M6 2h12l-1.5 16.5a2 2 0 0 1-2 1.5H9.5a2 2 0 0 1-2-1.5L6 2z" stroke="#2F6BFF" stroke-width="1.6" stroke-linejoin="round"/><path d="M6 8h12" stroke="#2F6BFF" stroke-width="1.6"/></svg></span>
+          <span>3 Multi-Use<br>Jars</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Specs + Owner Services -->
+  <div class="two-col-grid">
+    <section class="card">
+      <div class="card-title">
+        <span class="icon-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" stroke="#2F6BFF" stroke-width="2" stroke-linecap="round"/></svg></span>
+        <h2>Specifications</h2>
+      </div>
+      <div class="spec-list">
+        <div class="spec-row"><span>Power</span><span>750W</span></div>
+        <div class="spec-row"><span>Voltage</span><span>230V AC, 50Hz</span></div>
+        <div class="spec-row"><span>Speed</span><span>3 Speed Control</span></div>
+        <div class="spec-row"><span>Material</span><span>ABS Plastic Body</span></div>
+        <div class="spec-row"><span>Jars</span><span>3 Stainless Steel Jars</span></div>
+        <div class="spec-row"><span>Weight</span><span>3.2 kg (Approx.)</span></div>
+        <div class="spec-row"><span>Color</span><span>Black</span></div>
+        <div class="spec-row"><span>Country of Origin</span><span>India</span></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-title">
+        <span class="icon-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="4" y="10" width="16" height="10" rx="2" stroke="#2F6BFF" stroke-width="1.7"/><path d="M8 10V7a4 4 0 0 1 8 0v3" stroke="#2F6BFF" stroke-width="1.7"/></svg></span>
+        <div>
+          <h2>Owner Exclusive Services</h2>
+          <p class="card-subtitle">Login to unlock these features</p>
+        </div>
+      </div>
+
+      <div class="service-grid">
+        <button class="service-item">
+          <span class="service-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 3l3 3-3 3M3 6h9M15 21l-3-3 3-3M21 18h-9" stroke="#2F6BFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span>Register Complaint</span>
+          <svg class="lock-icon" width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AA6B8" stroke-width="1.7"/><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AA6B8" stroke-width="1.7"/></svg>
+        </button>
+        <button class="service-item">
+          <span class="service-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="7" width="18" height="13" rx="2" stroke="#2F6BFF" stroke-width="1.7"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" stroke="#2F6BFF" stroke-width="1.7"/></svg></span>
+          <span>Warranty Details</span>
+          <svg class="lock-icon" width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AA6B8" stroke-width="1.7"/><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AA6B8" stroke-width="1.7"/></svg>
+        </button>
+        <button class="service-item">
+          <span class="service-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 12a9 9 0 1 0 9-9M3 12l4-2M3 12l3 3" stroke="#2F6BFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span>Track Complaint</span>
+          <svg class="lock-icon" width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AA6B8" stroke-width="1.7"/><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AA6B8" stroke-width="1.7"/></svg>
+        </button>
+        <button class="service-item">
+          <span class="service-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z" stroke="#2F6BFF" stroke-width="1.7" stroke-linejoin="round"/><path d="M14 2v6h6" stroke="#2F6BFF" stroke-width="1.7"/></svg></span>
+          <span>Service History</span>
+          <svg class="lock-icon" width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AA6B8" stroke-width="1.7"/><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AA6B8" stroke-width="1.7"/></svg>
+        </button>
+        <button class="service-item">
+          <span class="service-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3v13M12 16l-4-4M12 16l4-4M4 19h16" stroke="#2F6BFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span>Download Invoice</span>
+          <svg class="lock-icon" width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AA6B8" stroke-width="1.7"/><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AA6B8" stroke-width="1.7"/></svg>
+        </button>
+        <button class="service-item">
+          <span class="service-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2l2.9 6.6 7.1.6-5.4 4.7 1.7 6.9L12 17.3 5.7 20.8l1.7-6.9L2 9.2l7.1-.6L12 2z" stroke="#2F6BFF" stroke-width="1.5" stroke-linejoin="round"/></svg></span>
+          <span>Priority Support</span>
+          <svg class="lock-icon" width="13" height="13" viewBox="0 0 24 24" fill="none"><rect x="5" y="11" width="14" height="9" rx="2" stroke="#9AA6B8" stroke-width="1.7"/><path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="#9AA6B8" stroke-width="1.7"/></svg>
+        </button>
+      </div>
+    </section>
+  </div>
+
+  <!-- Verified Banner -->
+  <section class="verified-banner">
+    <div class="verified-left">
+      <span class="verified-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 2l8 3v6c0 5-3.4 8.7-8 10-4.6-1.3-8-5-8-10V5l8-3z" fill="#12B76A"/><path d="M9 12l2 2 4-4.5" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div>
+        <p class="verified-title">This is a genuine product verified by SHINTECH.</p>
+        <p class="verified-sub">For full access to warranty and support services, please <a href="#">login</a> or <a href="#">register</a>.</p>
+      </div>
+    </div>
+    <div class="verified-actions">
+      <button class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M12 12a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zM4 20c0-3.5 3.6-6 8-6s8 2.5 8 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        Login
+      </button>
+      <button class="btn btn-success">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.87M16 3.13A4 4 0 0 1 16 11" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Register Product
+      </button>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="card" id="faq">
+    <div class="card-title">
+      <span class="icon-badge"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#2F6BFF" stroke-width="1.7"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1 .8-1 1.7" stroke="#2F6BFF" stroke-width="1.7" stroke-linecap="round"/><circle cx="12" cy="17" r="0.9" fill="#2F6BFF"/></svg></span>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+
+    <div class="faq-grid">
+      <div class="faq-item">
+        <button class="faq-question">
+          How do I register my product?
+          <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#2F6BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="faq-answer">Click "Register Product," sign in, and enter the product code and QR ID printed on your unit's label.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          How can I check my warranty status?
+          <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#2F6BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="faq-answer">Log in and open "Warranty Details" on your product dashboard to see coverage and expiry date.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          How do I raise a complaint?
+          <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#2F6BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="faq-answer">Go to "Register Complaint," describe the issue, and submit — you'll receive a tracking ID instantly.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          How can I track my complaint?
+          <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#2F6BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="faq-answer">Use "Track Complaint" with your ticket number to see live status updates.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">
+          What if my product is not working?
+          <svg class="chev" width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="#2F6BFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="faq-answer">Raise a complaint through your dashboard and our support team will get in touch to arrange service.</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer" id="contact">
+  <div class="footer-inner">
+    <div class="footer-col footer-brand">
+      <div class="brand">
+        <span class="brand-icon">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+            <path d="M12 2L4 5v6c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10V5l-8-3z" fill="url(#shieldGrad2)"/>
+            <path d="M9.5 12.2l1.7 1.7 3.3-3.6" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="shieldGrad2" x1="4" y1="2" x2="20" y2="22" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#2F6BFF"/><stop offset="1" stop-color="#0A3FCC"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <div class="brand-text">
+          <span class="brand-name">SHIN<em>TECH</em></span>
+          <span class="brand-sub">Smart Product Support</span>
+        </div>
+      </div>
+      <p class="footer-desc">SHINTECH is a smart QR based product support system to help you register complaints and get quick solutions.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <a href="#">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#support">Support</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer-col">
+      <h4>Support</h4>
+      <p class="footer-contact"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><rect x="3" y="5" width="18" height="14" rx="2" stroke="#9FB3E8" stroke-width="1.6"/><path d="M3 7l9 6 9-6" stroke="#9FB3E8" stroke-width="1.6"/></svg> support@shintech.com</p>
+      <p class="footer-contact"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.3 1.8.6 2.7a2 2 0 0 1-.5 2.1L8 9.7a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.5 2.7.6a2 2 0 0 1 1.7 2z" stroke="#9FB3E8" stroke-width="1.6"/></svg> +91 91234 56789</p>
+      <p class="footer-contact"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="#9FB3E8" stroke-width="1.6"/><path d="M12 7v5l3 2" stroke="#9FB3E8" stroke-width="1.6" stroke-linecap="round"/></svg> Mon - Sat (9:00 AM - 6:00 PM)</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+      <div class="social-row">
+        <a href="#" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M14 9h3V6h-3c-1.7 0-3 1.3-3 3v2H9v3h2v6h3v-6h2.5l.5-3H14V9z" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M22 5.9c-.7.3-1.5.6-2.3.7.8-.5 1.5-1.3 1.8-2.3-.8.5-1.7.8-2.6 1a4.1 4.1 0 0 0-7 3.7A11.6 11.6 0 0 1 3.4 4.6a4.1 4.1 0 0 0 1.3 5.5c-.7 0-1.3-.2-1.9-.5v.1c0 2 1.4 3.6 3.3 4a4.1 4.1 0 0 1-1.9.1 4.1 4.1 0 0 0 3.8 2.9A8.3 8.3 0 0 1 2 18.4a11.6 11.6 0 0 0 6.3 1.8c7.5 0 11.7-6.3 11.7-11.7v-.5c.8-.6 1.5-1.3 2-2.1z" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.6"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M7 10v6M7 7.5v.01M12 16v-3.5c0-1.4 1-2.5 2.3-2.5s2.2 1 2.2 2.5V16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg></a>
+        <a href="#" aria-label="YouTube"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="12" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M11 9.5l4 2.5-4 2.5v-5z" fill="currentColor"/></svg></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 SHINTECH. All rights reserved.</span>
+    <span class="footer-legal"><a href="#">Privacy Policy</a> | <a href="#">Terms &amp; Conditions</a></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

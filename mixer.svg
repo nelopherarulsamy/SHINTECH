@@ -1,0 +1,75 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="jarBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e8ebef"/>
+      <stop offset="45%" stop-color="#c7cdd6"/>
+      <stop offset="100%" stop-color="#9aa2ad"/>
+    </linearGradient>
+    <linearGradient id="jarBodySmall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dfe3e8"/>
+      <stop offset="50%" stop-color="#b9c0cb"/>
+      <stop offset="100%" stop-color="#8b93a0"/>
+    </linearGradient>
+    <linearGradient id="baseBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b2f36"/>
+      <stop offset="100%" stop-color="#111318"/>
+    </linearGradient>
+    <radialGradient id="knobGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5b8dff"/>
+      <stop offset="100%" stop-color="#1c3fae"/>
+    </radialGradient>
+    <linearGradient id="platform" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#123090"/>
+      <stop offset="100%" stop-color="#081335"/>
+    </linearGradient>
+  </defs>
+
+  <!-- platform shadow -->
+  <ellipse cx="200" cy="318" rx="150" ry="14" fill="#000" opacity="0.35"/>
+  <ellipse cx="200" cy="312" rx="165" ry="18" fill="url(#platform)" opacity="0.5"/>
+
+  <!-- small jar left -->
+  <g transform="translate(38,150)">
+    <path d="M10 30 L62 30 L56 130 Q36 138 16 130 Z" fill="url(#jarBodySmall)" stroke="#7c8494" stroke-width="1"/>
+    <rect x="6" y="18" width="60" height="16" rx="4" fill="#3a3f47"/>
+    <path d="M62 45 Q84 55 78 80 Q74 92 60 92" fill="none" stroke="#3a3f47" stroke-width="6" stroke-linecap="round"/>
+    <rect x="14" y="128" width="44" height="10" rx="3" fill="#22252b"/>
+  </g>
+
+  <!-- small jar right -->
+  <g transform="translate(300,150)">
+    <path d="M10 30 L62 30 L56 130 Q36 138 16 130 Z" fill="url(#jarBodySmall)" stroke="#7c8494" stroke-width="1"/>
+    <rect x="6" y="18" width="60" height="16" rx="4" fill="#3a3f47"/>
+    <path d="M10 45 Q-12 55 -6 80 Q-2 92 12 92" fill="none" stroke="#3a3f47" stroke-width="6" stroke-linecap="round"/>
+    <rect x="14" y="128" width="44" height="10" rx="3" fill="#22252b"/>
+  </g>
+
+  <!-- base body -->
+  <rect x="130" y="180" width="140" height="110" rx="22" fill="url(#baseBody)"/>
+  <rect x="130" y="180" width="140" height="34" rx="17" fill="#3a3f47"/>
+
+  <!-- control knob -->
+  <circle cx="200" cy="248" r="26" fill="#05070a"/>
+  <circle cx="200" cy="248" r="20" fill="url(#knobGlow)"/>
+  <circle cx="200" cy="248" r="7" fill="#0b1330"/>
+
+  <!-- brand text -->
+  <text x="200" y="200" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" font-weight="700" fill="#c9d3ec" letter-spacing="1">SAMSUNG</text>
+
+  <!-- main jar -->
+  <g transform="translate(140,20)">
+    <path d="M14 46 L106 46 L96 168 Q60 182 24 168 Z" fill="url(#jarBody)" stroke="#7c8494" stroke-width="1.5"/>
+    <rect x="8" y="26" width="104" height="24" rx="6" fill="#2f333b"/>
+    <rect x="8" y="26" width="104" height="8" rx="4" fill="#454b55"/>
+    <!-- handle -->
+    <path d="M106 66 Q150 78 140 118 Q134 140 108 140" fill="none" stroke="#2f333b" stroke-width="9" stroke-linecap="round"/>
+    <!-- lid cap -->
+    <rect x="46" y="6" width="28" height="22" rx="6" fill="#3a3f47"/>
+    <circle cx="60" cy="8" r="5" fill="#4b515c"/>
+    <!-- base of jar -->
+    <rect x="24" y="166" width="72" height="14" rx="4" fill="#22252b"/>
+  </g>
+
+  <!-- samsung text on main jar -->
+  <text x="200" y="150" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#6b7280" letter-spacing="0.5">SAMSUNG</text>
+</svg>
